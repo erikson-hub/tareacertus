@@ -220,6 +220,7 @@ for (const prop in pokemons[0]) {
 
   th.textContent = prop;
   th.style.cursor = 'pointer';
+
   th.addEventListener('click', () => {
     sortPokemons(prop);
     table.innerHTML = '';
