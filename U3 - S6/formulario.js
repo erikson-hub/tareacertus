@@ -1,7 +1,7 @@
-// const formulario = document.getElementById('formulario');
-const formulario = $('.formulario');
-// const inputs = document.querySelectorAll('#formulario input');
-const inputs = $('#formulario input');
+const formulario = document.getElementById('formulario');
+// const formulario = $('.formulario');
+const inputs = document.querySelectorAll('#formulario input');
+// const inputs = $('#formulario input');
 
 const expresiones = {
   usuario: /^[a-zA-Z0-9\_\-]{4,16}$/, // Letras, numeros, guion y guion_bajo
