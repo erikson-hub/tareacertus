@@ -1,3 +1,6 @@
+// +++++++++++++++++++++++++++++++++++++  TAREA DE LA SESION 3  ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+// LA SESION 04 EMPIEZA EN LA LINEA NUMERO 148
+
 //1. Crear una funcion que convierta los strings que se ingresan como parametros a estilo capitalizado.
 // Ejemplo: "hola a todos" => "Hola A Todos"
 
