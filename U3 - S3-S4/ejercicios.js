@@ -60,7 +60,7 @@ for (const index in users) {
 
 console.log(users);
 
-// let users = [objeto1, objeto2, objeto3, objeto4];
+let users = [objeto1, objeto2, objeto3, objeto4];
 
 // Te piden que utilizando las funciones de los ejercicios anteriores, evalues que usuarios tienen datos pendientes
 // y en caso no existan, solicitar el ingreso de los datos a traves del prompt para completarlos.
