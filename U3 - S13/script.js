@@ -17,4 +17,9 @@ app.controller('myCtrl', function ($scope) {
       return 250 + 30 * (1000 - 300) + 20 * ($scope.distance - 1000);
     }
   };
+  $scope.descuento = function () {
+    if ($scope.calcularTarifa() > 500) {
+      return 0.1 * $scope.calcularTarifa();
+    }
+  };
 });
