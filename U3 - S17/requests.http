@@ -1,0 +1,38 @@
+###
+POST http://localhost:3000/api/clients HTTP/1.1
+Content-Type: application/json
+
+{
+    "nomb_cliente": "Erikson Velasquez",
+    "telefono": 99999999,
+    "ciudad": "Ica",
+    "calle": "Girasoles",
+    "numero": 1180,
+    "estado": "Jalisco",
+    "fecha_nacimiento": "27/12/2000"
+}
+
+
+###
+GET http://localhost:3000/api/clients HTTP/1.1
+
+
+###
+GET http://localhost:3000/api/clients/639ccde567732ea171608c98 HTTP/1.1
+
+###
+PUT http://localhost:3000/api/clients/639ccde567732ea171608c98 HTTP/1.1
+Content-Type: application/json
+
+{
+    "nomb_cliente": "Erikson Velasquez Rojas",
+    "telefono": 99999999,
+    "ciudad": "Ica",
+    "calle": "Girasoles",
+    "numero": 1180,
+    "estado": "Nazca",
+    "fecha_nacimiento": "27/12/2000"
+}
+
+###
+DELETE http://localhost:3000/api/clients/639cd51d68ef416de2777e06 HTTP/1.1
